@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.lab {
+    background-color: #ffcccb; /* Highlight lab hours with red */
+}
+.elective {
+    background-color: #add8e6; /* Highlight elective hours with blue */
+}
+.regular {
+    background-color: #ffffff; /* Regular hours with white */
+}
